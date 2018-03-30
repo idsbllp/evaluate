@@ -30,7 +30,7 @@ var text = [
 document
     .querySelectorAll('.surveryMain textarea')
     .forEach(function(val,index) {
-    val.value = text[index];
-});
+        val.value = text[index];
+    });
 
 document.querySelector('#next_button').click();
